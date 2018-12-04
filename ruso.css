@@ -1,0 +1,68 @@
+
+
+#container-fluid{
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(http:\/\/placehold.it\/800x200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;}
+
+#section2 {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 250px;
+}
+#section2 > div {
+    max-width: 48%;
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid grey;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 20px;
+    
+}
+#section2 h1,p{
+    color: #404e66;
+
+}
+
+
+#section2 i{
+    color: lightskyblue;
+
+}
+
+#section3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 10%;
+    position: relative;  
+}
+
+#section3 h1{
+ font-family:'Rajdhani', sans-serif ;
+ padding:2em 1px;
+ color:#404e66;
+}
+
+#section3 .right{
+ max-width: 600px;
+}
+
+#section3 .right .btn-secondary{
+ color: #fff;
+ border:0;
+}
+
+#section3 .right .form-control::placeholder{
+ font-size: 16px;
+}
+.coms  {
+    margin-top: 50px;
+}
